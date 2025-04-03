@@ -25,7 +25,7 @@ body{
     margin-inline: 1.2rem;
 }
 
-h2, h4 {
+h2, h3 {
   text-wrap: balance;
   line-height: 1.1;
 }
@@ -71,6 +71,10 @@ p{
 .topic{
     font-weight: 800;
     font-size: 1.7rem;
+}
+
+.topic:hover{
+    color: hsl(47, 88%, 63%);
 }
 
 .article{
